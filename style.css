@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0px;
+}
+.frm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px 40px;
+    padding-bottom: 50px;
+    background-color: rgb(172, 114, 38);
+    width: 270px;
+    margin: auto;
+}
+p{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+input{
+    
+    width: 250px;
+    height: 30px;
+    border-radius: 25px;
+    text-align: center;
+    
+}
+
+.signbtn{
+    padding: 9px 60px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(84, 111, 216);
+    margin-top: 20px;
+    color: white;
+}
+/* input:hover{
+background-color: beige;
+}
+.signbtn:hover{
+    background-color: beige;
+    box-shadow: 5px 2px 5px 0px rgb(219, 219, 53);
+
+} */
+.my-element {
+    margin-top: 100px;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+    background-color:rgb(64, 23, 23);
+  }
